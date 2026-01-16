@@ -42,11 +42,11 @@ const StartPage = () => {
             <input
               type="email"
               placeholder="Gmail Address"
-              className="border-2 border-gray-400 text-white px-4 py-3  rounded-sm w-96 focus:outline-none"
+              className="border-2 border-gray-400 text-white px-4 py-3 rounded-sm w-96 focus:outline-none"
             />
 
             {/* Button Get Started */}
-            <button className="bg-red-500 px-4 py-1 text-white font-semibold rounded-sm cursor-pointer">
+            <button className="bg-red-500 py-1 px-4 text-white font-semibold rounded-sm cursor-pointer">
               Get Started
             </button>
           </div>

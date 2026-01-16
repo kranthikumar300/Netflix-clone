@@ -1,3 +1,4 @@
+import Footer from "./Components/Footer";
 import StartPage from "./Components/StartPage";
 
 function App() {
@@ -5,6 +6,7 @@ function App() {
     <>
       <div className="overflow-x-hidden">
         <StartPage />
+        <Footer />
       </div>
     </>
   );
