@@ -42,7 +42,7 @@ const Footer = () => {
               <input
                 type="email"
                 placeholder="Gmail Address"
-                className="border-2 border-gray-400 text-gray-400 w-96 py-3 px-2"
+                className="border-2 border-gray-400 text-gray-400 w-96 py-3 px-4 rounded-sm focus:outline-none"
               />
 
               <button className="bg-red-600 text-white font-semibold py-3 px-4 rounded-sm cursor-pointer">
