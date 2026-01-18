@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { tmdbMovies, tmdbPopularMoviesUrl } from "./Utils/axiosInstance";
+import { tmdbMovies, tmdbPopularMoviesUrl } from "../Utils/axiosInstance";
 
 const HeroPage = () => {
 
