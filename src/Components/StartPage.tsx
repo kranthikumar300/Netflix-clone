@@ -1,5 +1,7 @@
 import Herobg from "/start-Hero-Img.jpg";
 import netflixLogo from "/Netflix-Logo.png";
+import Footer from "./Footer";
+
 
 const StartPage = () => {
   return (
@@ -52,6 +54,8 @@ const StartPage = () => {
           </div>
         </div>
       </section>
+        <Footer />
+
     </>
   );
 };
