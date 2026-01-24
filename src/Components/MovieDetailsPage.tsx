@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { RiStarSFill } from "react-icons/ri";
 import netflixLogo from "/Netflix-Logo.png";
 
+// Defining the Movie Details by typeScript
 interface MovieDetails {
   id: number;
   poster_path: string;
@@ -15,6 +16,8 @@ interface MovieDetails {
 const MovieDetailsPage = () => {
   // Getting movieid from the url(useParams hook for getting the data from URL)
   const { movieid } = useParams();
+
+  // useState Hook for assigning the movie details to the variable
   const [movieDetails, setMovieDetails] = useState<MovieDetails | null>(null);
 
   // UseEffect Hook for fetching specific Movie Details
